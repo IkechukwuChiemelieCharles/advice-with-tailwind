@@ -3,28 +3,42 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./img/favicon-32x32.png"
+    />
     <link rel="stylesheet" href="./css/style.css" />
-    <title>Document</title>
+    <title>Frontend Mentor | Advice generator app</title>
   </head>
   <body class="flex justify-center items-center">
-    <!-- <div class="container flex justify-center items-center w-full"> -->
     <div
-      class="adviceCont flex justify-center items-center flex-col gap-20 relative"
+      class="container flex justify-center items-center w-full flex-col gap-40"
     >
-      <p class="adv">ADVICE # <span></span></p>
-
-      <p class="adviceText"></p>
-
-      <img src="./img/pattern-divider-mobile.svg" alt="" />
-
       <div
-        class="diceCont absolute -bottom-10 rounded-full flex justify-center items-center cursor-pointer"
+        class="adviceCont flex justify-center items-center flex-col gap-20 relative"
       >
-        <img src="./img/icon-dice.svg" alt="" />
+        <p class="adv">ADVICE # <span></span></p>
+
+        <p class="adviceText"></p>
+
+        <img src="./img/pattern-divider-mobile.svg" alt="" />
+
+        <div
+          class="diceCont absolute -bottom-10 rounded-full flex justify-center items-center cursor-pointer"
+        >
+          <img src="./img/icon-dice.svg" alt="" />
+        </div>
+      </div>
+
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Charlie X</a>.
       </div>
     </div>
-    <!-- </div> -->
     <script src="./js/main.js"></script>
   </body>
 </html>

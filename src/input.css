@@ -8,6 +8,9 @@ html {
 body {
   background-color: hsl(218, 23%, 16%);
   height: 100vh;
+  gap: 5rem;
+}
+.container {
 }
 
 .adviceCont {
@@ -38,6 +41,14 @@ body {
   box-shadow:
     -4px -4px 10px hsl(150, 100%, 66%),
     4px 4px 10px hsl(150, 100%, 66%);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
 }
 
 @media screen and (min-width: 640px) {
