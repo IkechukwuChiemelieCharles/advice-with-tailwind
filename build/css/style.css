@@ -644,6 +644,7 @@ body {
   background-color: hsl(218, 23%, 16%);
   height: 100vh;
   gap: 5rem;
+  font-family: "Manrope", serif;
 }
 
 .container {
@@ -660,6 +661,7 @@ body {
 .adv {
   color: hsl(150, 100%, 66%);
   font-size: 1.6rem;
+  letter-spacing: 0.4rem;
 }
 
 .adviceText {
@@ -667,6 +669,7 @@ body {
   font-size: 2.4rem;
   font-weight: bolder;
   text-align: center;
+  font-weight: 800;
 }
 
 .diceCont {
