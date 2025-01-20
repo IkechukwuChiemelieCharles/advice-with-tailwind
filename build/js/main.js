@@ -29,3 +29,4 @@ function advApi() {
       alert(err.message);
     });
 }
+advApi();
