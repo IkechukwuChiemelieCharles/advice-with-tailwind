@@ -15,7 +15,9 @@ function advApi() {
   fetch("https://api.adviceslip.com/advice")
     .then(function (res) {
       if (!res.ok) {
-        throw new Error(`here was an error ${res.status}`);
+        throw new Error(
+          (adviceText.textContent = `there was an error ${res.status}`)
+        );
       }
       return res.json();
     })
@@ -26,7 +28,8 @@ function advApi() {
       advNum.textContent = data.slip.id;
     })
     .catch(function (err) {
-      alert(err.message);
+      adviceText.textContent = err.message;
+      adviceText.style.color = "red";
     });
 }
 advApi();
